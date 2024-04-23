@@ -13,7 +13,7 @@ connectDB();
 
 
 var corsOptions = {
-    origin: 'http://localhost:5173',
+    origin: 'https://main--cheerful-froyo-b7f616.netlify.app',
     methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
     credentials: true
   }
