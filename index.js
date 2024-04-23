@@ -13,10 +13,11 @@ connectDB();
 
 
 var corsOptions = {
-    origin: 'https://main--cheerful-froyo-b7f616.netlify.app',
-    methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
-    credentials: true
-  }
+  origin: ['https://main--cheerful-froyo-b7f616.netlify.app', 'https://cheerful-froyo-b7f616.netlify.app'],
+  methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
+  credentials: true
+};
+
   
 
   
