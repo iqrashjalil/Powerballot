@@ -13,7 +13,7 @@ connectDB();
 
 
 var corsOptions = {
-  origin:  ['https://cheerful-froyo-b7f616.netlify.app','https://powerballotfrontend-l2sxo32wg-iqrash-jalils-projects.vercel.app/'],
+  origin:  'https://powerballot.netlify.app',
   methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
   credentials: true
 };
